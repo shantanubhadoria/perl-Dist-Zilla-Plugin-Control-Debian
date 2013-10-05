@@ -8,6 +8,35 @@ Dist::Zilla::Plugin::Control::Debian - Add a debian/control file to your distrib
 
 version 0.001
 
+=head1 ATTRIBUTES
+
+=head2 file_name
+
+ file_name=debian/control
+You will not need to change this from the default.
+
+=head2 priority
+
+ priority=optional
+
+Default value is 'optional'
+
+=head2 buildDepends
+
+    buildDepends=debhelper (>= 8)
+
+value for Build-Depends
+
+=head1 METHODS
+
+=head2 gather_files
+
+imported from FileGatherer
+
+=head2 render_control
+
+Simple method used to generate the content for control files
+
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 
 =head1 SUPPORT
