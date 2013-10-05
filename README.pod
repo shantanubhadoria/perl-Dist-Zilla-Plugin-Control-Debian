@@ -1,0 +1,44 @@
+=pod
+
+=head1 NAME
+
+Dist::Zilla::Plugin::Control::Debian - Add a debian/control file to your distribution
+
+=head1 VERSION
+
+version 0.001
+
+=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
+
+=head1 SUPPORT
+
+=head2 Bugs / Feature Requests
+
+Please report any bugs or feature requests through github at 
+L<https://github.com/shantanubhadoria/dist-zilla-plugin-control-debian/issues>.
+You will be notified automatically of any progress on your issue.
+
+=head2 Source Code
+
+This is open source software.  The code repository is available for
+public review and contribution under the terms of the license.
+
+L<https://github.com/shantanubhadoria/dist-zilla-plugin-control-debian>
+
+  git clone git://github.com/shantanubhadoria/dist-zilla-plugin-control-debian.git
+
+=head1 AUTHOR
+
+Shantanu Bhadoria <shantanu at cpan dott org>
+
+=head1 CONTRIBUTOR
+
+Shantanu <shantanu@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Shantanu Bhadoria.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
