@@ -6,7 +6,7 @@ Dist::Zilla::Plugin::Control::Debian - Add a debian/control file to your distrib
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 ATTRIBUTES
 
@@ -14,6 +14,10 @@ version 0.001
 
  file_name=debian/control
 You will not need to change this from the default.
+
+=head2 maintainer_email
+
+=head2 maintainer_name
 
 =head2 priority
 
