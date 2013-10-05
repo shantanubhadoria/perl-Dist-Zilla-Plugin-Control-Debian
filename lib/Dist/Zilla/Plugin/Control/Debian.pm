@@ -28,6 +28,26 @@ has file_name => (
 	default => 'debian/control',
 );
 
+=attr maintainer_email
+
+=cut
+
+has 'maintainer_email' => (
+    is => 'rw',
+    isa => 'Str',
+    default => defined($ENV{'DEBEMAIL'}) ? $ENV{'DEBEMAIL'} : 'cpan@example.com'
+);
+
+=attr maintainer_name
+
+=cut
+
+has 'maintainer_name' => (
+    is => 'rw',
+    isa => 'Str',
+    default => defined($ENV{'DEBFULLNAME'}) ? $ENV{'DEBFULLNAME'} : 'CPAN Author'
+);
+
 =attr priority
 
  priority=optional
@@ -98,4 +118,6 @@ Desciprion: " . $self->zilla->abstract ;
     return $content;
 }
 
+__PACKAGE__->meta->make_immutable;
+no Moose;
 1;
